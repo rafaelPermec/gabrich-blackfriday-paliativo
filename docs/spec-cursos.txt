@@ -1,0 +1,129 @@
+id="a2-pg-cursos" style="border-top:1px solid #D3CABB; padding:48px 0; display:flex; flex-direction:column; gap:20px;"> 2 · 10 · página aprovada
+ Página Cursos APROVADO 
+ Especificação final da página “cursos”. Fases: normal · lista de espera (17.10 a 31.10) · Black Friday aberta (01.11 a 27.11). Na lista de espera, o endereço da página mostra a página de lista de espera da Black Friday ( 5 · C04 ), com a seção “o que entra na black friday” em fileira de capas 2:3 que levam à página de cada curso. Visualização em 4 · 01 . Arquivo: “Cursos Pagina - Manual v2”.
+ lista de espera · 17.10 a 31.10
+ o endereço da página “cursos” mostra a página de lista de espera da Black Friday, descrita em 5 · C04 . Os componentes abaixo valem para as fases normal e Black Friday aberta.
+ 01 Faixa do topo 
+ fases
+ normal: não aparece · lista de espera: “BLACK FRIDAY · + DE 50% DE DESCONTO A PARTIR DE 01.11 · ENTRE NA LISTA DE ESPERA” · Black Friday aberta: “BLACK FRIDAY · + DE 50% DE DESCONTO · ATÉ 27.11”
+ desktop e mobile
+ largura total, altura mínima 40, texto centralizado em Space Mono 11; no mobile o texto quebra em duas linhas
+ interações
+ na lista de espera a faixa inteira é clicável
+ destino
+ lista de espera: página da lista de espera da Black Friday · Black Friday aberta: sem link
+ 02 Cabeçalho 
+ fases
+ igual em todas
+ desktop e mobile
+ logo Débora Gabrich à esquerda e botão “ver produtos” à direita; altura 72
+ destino
+ “ver produtos”: âncora para a fileira de capas
+ 03 Hero · título e banner de vídeo 
+ fases
+ igual em todas
+ texto
+ título “cursos” · texto “do e-book ao workshop presencial: tudo o que eu ensino sobre fotografia de gastronomia e produtos.”
+ desktop e mobile
+ desktop: título e texto lado a lado acima do banner 16:7 · mobile: um embaixo do outro; a altura do banner no mobile é definida pelo dev
+ interações
+ 4 slides (Luz na Prática, Mais que um Click, Antes da Foto, No Estúdio) · cada slide troca sozinho quando o vídeo dele termina (Luz na Prática 6 s, Mais que um Click 6,5 s, No Estúdio 10,5 s); barras de progresso embaixo, clicar pula para o slide
+ destino
+ cada slide leva para a página do curso; o do No Estúdio leva para a lista de espera
+ mídia
+ vídeos MP4 16:9 (1280 × 720, H.264), sem som, em loop, ocupando o card inteiro (object-fit: cover): Luz na Prática assets/hero/lnp-hero-horizontal.mp4 · Mais que um Click assets/hero/mqc-hero-horizontal.mp4 · No Estúdio assets/hero/noestudio-hero-horizontal.mp4 · Antes da Foto: pendente · capa (poster) de cada vídeo: assets/hero/[curso]-hero-poster.jpg, 1600 px de largura · autoplay, muted, loop e playsinline
+ banner no mobile
+ o tamanho e o enquadramento dos vídeos no mobile ficam a cargo do dev · referência visual: Netflix · no desktop, o vídeo ocupa o banner na horizontal · no mobile, o dev define o melhor formato (por exemplo, manter 16:9 na largura da tela ou recortar para um formato mais alto) para o banner não ficar pequeno nem cortar o que importa · se precisar de outra versão dos vídeos para o mobile (outra proporção, como 4:5 ou 9:16, outra duração ou outro peso de arquivo), pedir à Débora informando o formato exato · os vídeos originais verticais existem e podem ser reeditados
+ 04 Fileira de capas 
+ fases
+ normal: sem etiqueta · lista de espera: Antes da Foto, Luz na Prática e Mais que um Click com “50% NA BLACK FRIDAY” · Black Friday aberta: os três com “-50%” (na cor de acento do curso) + “BLACK FRIDAY” · No Estúdio e Mentoria nunca têm etiqueta
+ desktop e mobile
+ capas verticais 2:3 de 220 px, com o mesmo conteúdo das capas da Hotmart (arquivo “Capas de Produto Hotmart”), raio 16, rolagem horizontal com encaixe; no mobile a fileira passa da borda da tela
+ interações
+ card inteiro clicável
+ destino
+ cada capa leva para a página do curso · Mentoria: o card leva para a página Mentoria; o botão “falar comigo” abre e-mail para contato@deboragabrich.com.br
+ mídia
+ 5 fotos 2:3, JPG ou WebP, 880 × 1320, até 250 KB
+ 05 Card da Mentoria 
+ conteúdo
+ etiqueta “MENTORIA INDIVIDUAL” · texto “acompanhamento individual com a Débora, online ou no estúdio.” · botão “falar comigo”
+ destino
+ card: página Mentoria · botão: mailto:contato@deboragabrich.com.br
+ 06 Quiz 
+ abertura
+ etiqueta “QUIZ” e “1 MINUTO” · título “tá em dúvida de qual curso é pra você?” · texto “Responde essas 5 perguntinhas rápidas que eu te conto!” · botão “bora começar” · legenda “LEVA 1 MINUTO · SEM CADASTRO”
+ funcionamento
+ uma pergunta por tela, barra de progresso e contador “1 de 5” · perguntas 1 a 4: uma resposta, avança sozinho · pergunta 5: mais de uma resposta, botão “ver o meu resultado” (ativo depois de marcar uma) · “← voltar” em todas · os pontos nunca aparecem na tela
+ pergunta 1
+ O que você fotografa, ou quer fotografar? a) Gastronomia: pratos, receitas, restaurantes, bebidas. · MQC +2 · marca “gastronomia” b) Produtos: cosméticos, produtos gastronômicos, objetos. · ADF +2 · LNP +2 · NE +1 · marca “produtos” c) Gastronomia e produtos. · MQC +1 · ADF +1 · LNP +1 d) Sou fotógrafo de outro nicho e quero começar na fotografia de gastronomia e produtos. · MQC +1 · LNP +2 · ADF +2 e) Estou começando agora e quero fotografar produtos e alimentos. · MQC +1 · LNP +2 · ADF +2
+ pergunta 2
+ Como está a sua fotografia hoje? a) Ainda estou aprendendo e quero um processo pra seguir, do zero. · MQC +2 · MEN +1 b) Já sei fotografar, mas a luz ainda me limita. · LNP +3 c) Já sei fotografar, mas às vezes chego na sessão de fotos sem saber o que fazer. · ADF +3 d) Tenho dúvidas e dificuldades bem específicas, e queria resolver isso com alguém. · MEN +3 e) Um pouco de tudo: a luz, as ideias e o processo. · LNP +3 · ADF +3
+ pergunta 3
+ O que mais te ajudaria agora? a) Aprender a controlar a luz e desenvolver a minha técnica de iluminação para fotografia de produtos e alimentos. · LNP +3 b) Parar de travar na hora de criar: encontrar ideias e planejar cada foto antes de fotografar. · ADF +3 c) Aprender o processo completo da fotografia de gastronomia: do briefing à foto final, com produção, edição e quanto cobrar. · MQC +3 d) Aprender todos os seus processos criativos e praticar, junto com a técnica, no estúdio com você. · NE +3 e) Um acompanhamento individual, focado nas minhas dúvidas e no meu trabalho. · MEN +3
+ pergunta 4
+ Como você prefere aprender? a) Online, no meu ritmo, com aulas em vídeo. · LNP +1 · ADF +1 · MQC +1 b) Lendo, anotando e fazendo exercícios. · ADF +2 c) Presencialmente, no estúdio, praticando junto com você. · NE +2 d) Individual e personalizado, do jeito que eu precisar. · MEN +2
+ pergunta 5
+ Você já foi meu aluno(a)? (pode marcar mais de um) a) Antes da Foto · b) Luz na Prática · c) Mais que um Click · d) No Estúdio · e) Ainda não “Ainda não” desmarca as outras, e vice-versa
+ regras do resultado
+ 1. Somar os pontos de ADF, LNP, MQC, NE e MEN. 2. Tirar da conta os cursos marcados na pergunta 5. Nunca recomendar um curso que a pessoa já tem, nem um combo que contenha esse curso. 3. Se NE ou MEN tiver mais pontos que todos os outros, o resultado é o No Estúdio ou a Mentoria. 4. Senão, entre os cursos online que a pessoa ainda não tem: os três com 3 pontos ou mais e diferença de até 2 entre o maior e o menor → Completo · os dois maiores com 3 pontos ou mais e diferença de até 2 entre eles → combo desses dois · nos outros casos → o curso com mais pontos. 5. Empate entre cursos: LNP, depois ADF, depois MQC. Empate entre combos: Luz na Prática + Antes da Foto primeiro. 6. Combo com um curso que a pessoa já tem → só o outro curso do combo. 7. Marcou “Produtos” na pergunta 1 → o Mais que um Click nunca é o resultado (nem sozinho, nem em combo, nem no Completo) e não aparece no “para ir além”; os pontos de MQC são ignorados. 8. Já fez os três cursos online → No Estúdio, ou Mentoria se MEN tiver mais pontos; se também já fez o No Estúdio → Mentoria. Marcou No Estúdio na pergunta 5 → o No Estúdio não aparece no resultado nem no “para ir além”. Quem marcou No Estúdio conta também como aluno do Antes da Foto (recebeu o e-book no workshop): o Antes da Foto não aparece como resultado nem no “para ir além”, nenhum combo com ele é recomendado (entra o outro curso, sozinho) e o Completo vira Mais que um Click + Luz na Prática, se a pessoa não tiver nenhum dos dois. 9. Escolheu “Um acompanhamento individual…” na pergunta 3 ou “Individual e personalizado…” na pergunta 4 e o resultado não é a Mentoria → o resultado continua o mesmo e o “para ir além” vira o bloco da Mentoria: etiqueta “PRA VOCÊ QUE QUER ACOMPANHAMENTO INDIVIDUAL”, título “mentoria”, texto “A gente monta o conteúdo juntos, em cima das suas dúvidas e dificuldades. Online ou no meu estúdio.”, botão “falar comigo” → mailto:contato@deboragabrich.com.br 10. Marcou No Estúdio na pergunta 5 e escolheu “Aprender todos os seus processos criativos e praticar… no estúdio com você” na pergunta 3 ou “Presencialmente, no estúdio, praticando junto com você” na pergunta 4, e o resultado não é a Mentoria → o resultado continua o mesmo e o “para ir além” vira o bloco: etiqueta “PRA VOCÊ QUE QUER CONTINUAR PRATICANDO COMIGO”, título “mentoria”, texto “Você já passou pelo estúdio. Agora dá pra continuar comigo: a gente monta o conteúdo juntos, em cima das suas dúvidas e dificuldades, presencial no meu estúdio ou online.”, botão “falar comigo” → mailto:contato@deboragabrich.com.br · se também valer a regra 9, aparece só o bloco da regra 9
+ tela de resultado
+ etiqueta “O SEU PRÓXIMO PASSO” · capa do produto (a mesma da fileira de capas; nos combos, as capas dos cursos do combo) · título e texto · preço: normal fora da Black; na Black, o preço da Black com “-50%” + “BLACK FRIDAY”; No Estúdio e Mentoria sem preço · botão principal (curso avulso: página de vendas do curso · combo e Completo: checkout na Hotmart, com um botão secundário “conheça o …” para cada curso do combo, levando à página de vendas) · bloco “PARA IR ALÉM” · link “refazer o quiz”
+ para ir além · combo
+ título: os nomes dos cursos, começando pelo curso do resultado principal · etiqueta “COM DESCONTO” ao lado · na Black, também “-50%” + “BLACK FRIDAY” preço: “por 12x de R$ [valor final do combo]”, nunca a diferença · Luz na Prática + Antes da Foto: por 12x de R$ 59,68 (Black: R$ 29,68) · Mais que um Click + Luz na Prática: por 12x de R$ 134,14 (Black: R$ 66,91) · Completo: por 12x de R$ 144,48 (Black: R$ 72,09) botão: leva direto ao checkout do combo (2 · 07)
+ para ir além · avulso e No Estúdio
+ curso avulso (só no resultado No Estúdio): título “Antes da Foto”, “por 12x de R$ 20,37” (Black: por 12x de R$ 10,03), sem “COM DESCONTO” · não aparece se a pessoa já tem o Antes da Foto No Estúdio (só no resultado Luz na Prática + Antes da Foto): título “No Estúdio”, etiqueta “VAGAS LIMITADAS”, texto “Dois dias no meu estúdio, praticando todo o processo comigo: do briefing à luz e à foto.” · sem preço · botão “entrar na lista de espera” (com turma aberta: “quero me inscrever”) não aparece: no Completo, na Mentoria e quando a sugestão tem um curso que a pessoa já tem
+ Antes da Foto
+ título: o seu próximo passo é o antes da foto. texto: Você quer desenvolver o seu pensamento criativo, trabalhando com clientes ou não. No e-book, eu abro o meu processo do briefing ao planejamento, pra você saber o que fazer antes de cada foto, com 12 práticas e 5 briefings pra treinar mesmo sem cliente. botão: quero conhecer o e-book → página do Antes da Foto para ir além: Antes da Foto + Luz na Prática. O e-book planeja a foto; o Luz na Prática ensina a construir a luz que você planejou. → #checkout-luz-antes-da-foto
+ Luz na Prática
+ título: o seu próximo passo é o luz na prática. texto: Você já sabe fotografar, e agora é hora de aprender a controlar a luz. É um curso prático de iluminação: eu mostro como penso e monto a luz, com aulas práticas e análises de trabalhos reais, pra você controlar e criar a luz que cada foto pede, com o equipamento que você tem. botão: quero conhecer o curso → página do Luz na Prática para ir além: Luz na Prática + Antes da Foto. Com o e-book, você planeja a foto inteira antes de montar a luz. → #checkout-luz-antes-da-foto
+ Mais que um Click
+ título: o seu próximo passo é o mais que um click. texto: Você precisa do caminho inteiro da fotografia de gastronomia: do briefing à foto final, passando por produção, luz, edição e quanto cobrar. São 14 módulos, com exercícios e dois projetos completos pra você montar o seu portfólio. botão: quero conhecer o curso → página do Mais que um Click para ir além: Mais que um Click + Luz na Prática. O Luz na Prática aprofunda a parte que mais muda o resultado da foto. → #checkout-click-luz
+ Luz na Prática + Antes da Foto
+ título: o seu próximo passo é o combo luz na prática + antes da foto. texto: Você trava um pouco em tudo, e esse combo resolve as duas pontas da foto: no Antes da Foto, você aprende a ter a ideia e planejar a cena; no Luz na Prática, a construir a luz que você planejou. Levando os dois juntos, você economiza em relação aos cursos separados. botão: quero o combo → #checkout-luz-antes-da-foto (Black: #checkout-bf26-luz-antes-da-foto) · conheça o Luz na Prática → página do Luz na Prática · conheça o Antes da Foto → página do Antes da Foto para ir além: marcou “Produtos” na pergunta 1 → No Estúdio · sem “Produtos”, mas com 2 pontos ou mais em NE → No Estúdio · nos outros casos → Completo · Luz na Prática + Antes da Foto + Mais que um Click. O Mais que um Click completa com o processo inteiro da fotografia de gastronomia. → #checkout-completo
+ Mais que um Click + Antes da Foto
+ título: o seu próximo passo é o combo mais que um click + antes da foto. texto: Você quer o processo completo da fotografia de gastronomia e, junto, aprofundar a parte que mais diferencia o seu trabalho: as ideias e o planejamento antes do clique. Levando os dois juntos, você economiza em relação aos cursos separados. botão: quero o combo → #checkout-click-antes-da-foto (Black: #checkout-bf26-click-antes-da-foto) · conheça o Mais que um Click → página do Mais que um Click · conheça o Antes da Foto → página do Antes da Foto para ir além: Completo · Mais que um Click + Antes da Foto + Luz na Prática. O Luz na Prática aprofunda a luz. → #checkout-completo
+ Mais que um Click + Luz na Prática
+ título: o seu próximo passo é o combo mais que um click + luz na prática. texto: Você quer o processo completo da fotografia de gastronomia e aprender a controlar a parte que mais muda o resultado da foto: a luz. Levando os dois juntos, você economiza em relação aos cursos separados. botão: quero o combo → #checkout-click-luz (Black: #checkout-bf26-click-luz) · conheça o Mais que um Click → página do Mais que um Click · conheça o Luz na Prática → página do Luz na Prática para ir além: Completo · Mais que um Click + Luz na Prática + Antes da Foto. O Antes da Foto aprofunda as ideias e o planejamento antes do clique. → #checkout-completo
+ Completo
+ título: o seu próximo passo é o completo. texto: Você quer tudo: o processo inteiro da fotografia de gastronomia, a técnica de luz e a direção criativa antes do clique. Os três cursos juntos, com o maior desconto em relação a comprar separado. botão: quero o completo → #checkout-completo (Black: #checkout-bf26-completo) · conheça o Mais que um Click · conheça o Luz na Prática · conheça o Antes da Foto → página de cada curso para ir além: não aparece
+ No Estúdio
+ título: o seu próximo passo é o no estúdio. texto: Em dois dias no meu estúdio, em Belo Horizonte, você aprende todos os meus processos criativos e coloca tudo em prática comigo, junto com a técnica: do briefing ao planejamento, da produção à luz e à foto. As vagas são limitadas, e quem está na lista fica sabendo primeiro quando abre uma turma. botão: entrar na lista de espera → página do No Estúdio (com turma aberta: “quero me inscrever” → checkout do workshop) para ir além: Antes da Foto, por 12x de R$ 20,37 (Black: por 12x de R$ 10,03), pra você já chegar no workshop com o meu processo na cabeça. → #checkout-antes-da-foto · não aparece se a pessoa já tem o Antes da Foto
+ Mentoria
+ título: o seu próximo passo é a mentoria. texto: Você quer algo feito pra você, esteja começando ou já trabalhando há anos. Na mentoria, a gente monta o conteúdo juntos, em cima das suas dúvidas e dificuldades: negócio, técnica, edição, direção criativa ou um pouco de tudo. Online ou no meu estúdio. botão: falar comigo → mailto:contato@deboragabrich.com.br para ir além: não aparece
+ 07 Monte seu combo · Monte sua Black Friday 
+ fases
+ normal e lista de espera: Monte seu combo, preço normal · Black Friday aberta: Monte sua Black Friday, preço da Black
+ interações
+ marcar e desmarcar os três cursos; o resumo e o botão mudam com a combinação
+ destino
+ checkout da combinação marcada (2 · 07)
+ regras
+ ver 2 · 05.12 
+ 08 Selo de garantia 
+ conteúdo
+ quadrado reto “7 / DIAS” e, ao lado, “Garantia de 7 dias. / Se não for para você, devolvemos 100% do valor.”
+ posição
+ uma vez, abaixo do Monte seu combo
+ regras
+ ver 2 · 05.07 
+ 09 Depoimentos 
+ depoimentos
+ prints (PNG, como enviados, sem novo recorte): desktop em grade de 3 colunas de mesma largura, cada print na largura da coluna com a própria proporção (masonry), 16 px entre eles, ordem da esquerda para a direita e de cima para baixo · cada print dentro de um card com fundo neutro da página, padding 16 px e raio 16 px · mobile em carrossel horizontal, um por vez, com indicador de posição · vídeos sempre numa linha própria acima dos prints, todos com a mesma largura · componente “Depoimentos” · 3 vídeos 9:16 com legenda, acima dos prints · grade de 3 colunas com cursos-dep-01, 02, 04, 05 e 06 · última linha: cursos-dep-03 (Ana Clara) nas 2 colunas da esquerda, alinhado à esquerda, e na coluna da direita cursos-dep-07 (Nathália) e cursos-dep-08 (isasilveirap) empilhados, 16 px entre eles, centralizados na altura do card da Ana Clara · no mobile, 07 e 08 entram no carrossel logo depois do 03 · aparece nas fases normal e Black Friday aberta; na lista de espera não aparece
+ vídeos
+ vídeos do YouTube: no site, player incorporado dentro do card (9:16 nos shorts) com iframe https://www.youtube.com/embed/ID?rel=0 e o atributo referrerpolicy="strict-origin-when-cross-origin" (sem ele aparece o “Erro 153”) · antes do clique, capa https://i.ytimg.com/vi/ID/hqdefault.jpg com botão de play no estilo da página; o player só carrega no clique · sem autoplay, sem som automático, controles visíveis · no celular o card é 16:9 (capa centralizada) até o clique; ao clicar, o vídeo abre em tela cheia na vertical · no manual o embed é bloqueado pelo preview, por isso o card abre o vídeo no YouTube em nova aba vídeo 1 · “aluna do Mais que um Click”: https://youtube.com/shorts/IqUJ7S26M_M · ID IqUJ7S26M_M vídeo 2 · “aluna do Luz na Prática”: https://youtube.com/shorts/YNqsShoqs0o · ID YNqsShoqs0o vídeo 3 · “alunos do No Estúdio”: https://youtube.com/shorts/QJ34iLO5fY4 · ID QJ34iLO5fY4 · capa: a capa padrão do YouTube (hqdefault) é horizontal e pequena; nos cards verticais, se ficar com pouca resolução, o dev pode usar outra capa do próprio vídeo no YouTube ou um quadro exportado do vídeo, sempre enquadrado pelo centro (object-fit: cover).
+ arquivos
+ pasta assets/depoimentos/cursos/
+ 10 Sobre 
+ conteúdo
+ foto, bio e citação “eu planejo cada detalhe da foto antes de qualquer coisa” · a bio vem da copy oficial da aba 06 (6 · 01c · Bio · Sobre a Débora): texto base + frase final “Cursos”
+ desktop e mobile
+ desktop: foto e texto em duas colunas · mobile: foto em cima
+ mídia
+ retrato 4:5, JPG 1200 × 1500, até 300 KB
+ 11 Rodapé 
+ conteúdo
+ logo Débora Gabrich · contato · @deboragabrich
+ destino
+ contato: mailto:contato@deboragabrich.com.br · @deboragabrich: instagram.com/deboragabrich
+<div 

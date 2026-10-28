@@ -1,0 +1,76 @@
+.capa {
+  flex: 0 0 auto;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--raio-card);
+  overflow: hidden;
+  position: relative;
+  display: block;
+  scroll-snap-align: start;
+  text-decoration: none;
+}
+.contorno { box-shadow: inset 0 0 0 1px #6b6156; }
+.capa:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
+.miolo { container-type: inline-size; position: absolute; inset: 0; overflow: hidden; }
+.foto { object-fit: cover; }
+.veu { position: absolute; inset: 0; }
+.cobertura { position: absolute; inset: 0; z-index: 1; border-radius: inherit; }
+.cobertura:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
+.acao { position: absolute; left: 20px; right: 20px; bottom: 20px; z-index: 2; display: flex; }
+.acaoBotao {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 16px; border-radius: 0;
+  background: #CCAA66; color: #0b0b0b; text-decoration: none;
+  font: 600 12px/1 var(--fonte-corpo); letter-spacing: 0.16em; text-transform: uppercase; white-space: nowrap;
+}
+.acaoBotao:hover { background: #B8964F; color: #0b0b0b; }
+.etiquetas { position: absolute; top: 14px; left: 14px; display: flex; gap: 4px; }
+.etiqueta {
+  font: 400 9px/1.2 var(--fonte-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 5px 8px;
+}
+
+/* Antes da Foto */
+.adfBloco { position: absolute; left: 8cqw; right: 8cqw; bottom: 9cqw; display: flex; flex-direction: column; gap: 4cqw; }
+.adfLogo { width: 62cqw; height: auto; display: block; }
+.adfDesc { font: 400 4.4cqw/1.35 var(--fonte-corpo); color: #DDCBBA; }
+.adfLinha { display: flex; justify-content: space-between; align-items: center; gap: 3cqw; }
+.adfPilula {
+  box-shadow: inset 0 0 0 1px #DDCBBA; border-radius: 999px; padding: 1.6cqw 4cqw;
+  font: 700 3.4cqw/1.2 var(--fonte-corpo); letter-spacing: 0.14em; color: #DDCBBA;
+}
+.adfAutora { font: 700 3.6cqw/1.2 var(--fonte-corpo); color: #DDCBBA; }
+
+/* Luz na Prática */
+.lnpBloco { position: absolute; left: 8cqw; bottom: 9cqw; width: 80cqw; display: flex; flex-direction: column; gap: 3cqw; }
+.lnpLogo { width: 80cqw; height: auto; display: block; }
+.lnpDesc {
+  display: block; width: 80cqw; white-space: nowrap; text-align: justify; text-align-last: justify;
+  font: 300 2.6cqw/1.2 var(--fonte-montserrat); letter-spacing: 0.08em; color: #F4F0E8;
+}
+
+/* Mais que um Click */
+.mqcBloco { position: absolute; top: 0; right: 0; bottom: 0; width: 58%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4cqw; }
+.mqcLogo { width: 44cqw; height: auto; display: block; }
+.mqcDesc { font: 300 2.6cqw/1.6 var(--fonte-montserrat); letter-spacing: 0.12em; text-transform: uppercase; color: #D9D5CC; text-align: center; }
+
+/* No Estúdio */
+.neQuadro { position: absolute; left: 12cqw; right: 12cqw; top: 14cqw; bottom: 14cqw; }
+.neQuadro i { position: absolute; width: 22cqw; height: 12cqw; border: 0 solid #A99583; }
+.neCantoSE { left: 0; top: 0; border-width: 1.4cqw 0 0 1.4cqw !important; }
+.neCantoSD { right: 0; top: 0; border-width: 1.4cqw 1.4cqw 0 0 !important; }
+.neCantoIE { left: 0; bottom: 0; border-width: 0 0 1.4cqw 1.4cqw !important; }
+.neCantoID { right: 0; bottom: 0; border-width: 0 1.4cqw 1.4cqw 0 !important; }
+.neCentro { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+.neLogo { width: 70cqw; height: auto; display: block; }
+
+/* Mentoria */
+.meBloco { position: absolute; left: 9cqw; right: 9cqw; bottom: 9cqw; display: flex; flex-direction: column; gap: 3cqw; }
+.meBlocoAcima { bottom: 80px; }
+.mePilula {
+  align-self: flex-start; box-shadow: inset 0 0 0 1px #CCAA66; border-radius: 999px; color: #CCAA66;
+  font: 400 2.4cqw/1.3 var(--fonte-mono); letter-spacing: 0.14em; padding: 1cqw 2.6cqw; text-transform: uppercase;
+}
+.meTitulo { font: 900 13cqw/0.9 var(--fonte-urbanist); letter-spacing: -0.01em; text-transform: uppercase; color: #F4F0E8; }
+.meDesc { font: 400 3.6cqw/1.35 var(--fonte-tenor); color: #F4F0E8; }
+.meLogo { width: 34cqw; height: auto; display: block; padding-top: 2cqw; }

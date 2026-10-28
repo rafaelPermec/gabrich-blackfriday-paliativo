@@ -1,0 +1,23 @@
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--esp-2);
+  border-radius: var(--raio-reto);
+  background: var(--botao);
+  color: var(--botao-texto);
+  font-family: var(--fonte-corpo);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+.botao:hover { background: var(--botao-hover); }
+.botao:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
+.botao[aria-disabled='true'] { background: var(--desabilitado); pointer-events: none; }
+
+.pequeno { min-height: 44px; padding: 0 var(--esp-4); font-size: 12px; }
+.grande { min-height: 56px; padding: 0 var(--esp-8); font-size: 14px; }

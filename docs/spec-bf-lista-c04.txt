@@ -1,0 +1,70 @@
+id="c04" style="border-top:1px solid #3d3a35; padding:48px 0; display:flex; flex-direction:column; gap:28px;"> C04
+ Página de lista de espera
+ No ar de 17.10 a 31.10. Um objetivo só: entrar na lista. O contador conta para a abertura e o formulário fica visível sem rolar. A captação é feita na Hotmart e os e-mails da lista saem pelo Hotmart Send.
+ lista de espera
+ desktop · 1240
+ lista de espera
+ luz na prática
+ mais que um click
+ antes da foto
+ a black friday começa em
+ 12
+ dias
+ 08
+ horas
+ 41
+ min
+ 50% em todos os cursos, de 01 a 27 de novembro. Entre na lista e receba o aviso assim que abrir.
+ entrar na lista de espera
+ nome
+ seu nome
+ e-mail
+ seu@email.com
+ whatsapp · opcional
+ (00) 00000-0000
+ qual curso te interessa? · pode marcar mais de um
+ ainda não sei
+ entrar na lista de espera
+ Ao entrar na lista, você concorda em receber e-mails da Débora Gabrich sobre a Black Friday. Dá pra sair quando quiser.
+ o que entra na black friday
+ 50% na black friday
+ 27 aulas práticas e análises pra entender a luz de verdade e criar qualquer efeito de iluminação na fotografia de gastronomia e produtos, com o equipamento que você tem.
+ 50% na black friday
+ aprenda sobre fotografia de gastronomia, do briefing à foto final, com prática no estúdio e fotografia como negócio. 14 módulos, 67 conteúdos.
+ 50% na black friday
+ o manual de direção criativa: briefing, referências, narrativa, cores e composição. tudo o que você decide antes do clique.
+ antes da abertura, os cards não mostram preço: só “50% na black friday”
+ perguntas frequentes
+ Quando começa?
+ 01 de novembro.
+ A lista garante o desconto?
+ A lista garante o aviso. O desconto vale para todos de 01 a 27.11.
+ Preciso pagar para entrar na lista?
+ Não.
+ 12
+ rodapé
+ instagram
+ contato
+ obrigado · depois de entrar na lista
+ desktop · 1240
+ você está na lista
+ Pronto! Te aviso quando abrir.
+ Mandei um e-mail de confirmação. Se não aparecer em alguns minutos, olhe a caixa de spam ou de promoções.
+ a black friday começa em
+ 12
+ dias
+ 08
+ horas
+ 41
+ min
+ seguir no instagram
+ voltar para o início
+ objetivo
+ um botão: “entrar na lista de espera” · nenhum link para curso ou checkout
+ acima da dobra
+ título, contador e formulário
+ preço
+ não aparece · só “50% na black friday”
+ depois de 31.10
+ redireciona para a página geral
+<div 

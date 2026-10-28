@@ -1,0 +1,23 @@
+.rodape { background: var(--fundo); color: var(--texto); border-top: var(--fio) solid var(--divisoria); }
+.interno {
+  max-width: calc(var(--container) + 2 * var(--esp-6));
+  margin-inline: auto;
+  padding: var(--esp-8) var(--esp-6);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--esp-6);
+}
+.marca { display: flex; flex-wrap: wrap; align-items: center; gap: var(--esp-4); }
+.marca img { display: block; }
+.assinatura {
+  font: 400 10px/1.5 var(--fonte-mono);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--texto-apoio);
+}
+.links { display: flex; gap: var(--esp-6); }
+.links a { font: 400 13px/1.5 var(--fonte-corpo); color: var(--texto); text-decoration: none; }
+.links a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.links a:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }

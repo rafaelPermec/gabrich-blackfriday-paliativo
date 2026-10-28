@@ -1,0 +1,13 @@
+.reservada {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: var(--card);
+  border: var(--fio) dashed var(--fio-card);
+  color: var(--texto-apoio);
+  font: 400 10px/1.5 var(--fonte-mono);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: var(--esp-4);
+}

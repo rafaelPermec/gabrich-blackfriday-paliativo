@@ -1,0 +1,31 @@
+.faixa {
+  min-height: 38px;
+  padding: var(--esp-1) var(--esp-6);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--esp-2) var(--esp-4);
+  background: var(--bf-preto);
+  color: var(--bf-papel);
+  border-bottom: var(--fio) solid var(--bf-fio-cinza);
+}
+.etiqueta {
+  padding: 3px var(--esp-2);
+  border: var(--fio) solid var(--bf-ocre);
+  color: var(--bf-ocre);
+  font: 400 9px/1.3 var(--fonte-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.frase {
+  font: 900 13px/1 var(--fonte-urbanist);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.contador,
+.datas {
+  font: 600 14px/1 var(--fonte-urbanist);
+  color: var(--bf-ocre);
+  font-variant-numeric: tabular-nums;
+}

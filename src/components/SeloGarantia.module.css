@@ -1,0 +1,6 @@
+.selo { display: flex; align-items: center; justify-content: center; gap: 18px; padding-top: 36px; }
+.quadro { width: 72px; height: 72px; box-shadow: inset 0 0 0 1px var(--selo-garantia); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; flex: none; color: var(--selo-garantia); }
+.numero { font: 700 34px/1 var(--fonte-corpo); }
+.dias { font: 400 9px/1 var(--fonte-mono); letter-spacing: 0.2em; }
+.texto { margin: 0; font: 400 14px/1.5 var(--fonte-corpo); color: var(--texto); }
+.texto strong { font-weight: 700; }

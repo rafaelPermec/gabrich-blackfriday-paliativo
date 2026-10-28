@@ -1,0 +1,37 @@
+.banner {
+  position: fixed;
+  inset: auto var(--esp-4) var(--esp-4) var(--esp-4);
+  z-index: 60;
+  max-width: 720px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--esp-4);
+  padding: var(--esp-4) var(--esp-6);
+  background: var(--fundo);
+  color: var(--texto);
+  border: var(--fio) solid var(--fio-card);
+}
+.texto {
+  flex: 1 1 280px;
+  margin: 0;
+  font: 400 14px/1.55 var(--fonte-corpo);
+  text-wrap: pretty;
+}
+.acoes { display: flex; gap: var(--esp-2); }
+.link { color: var(--texto); text-decoration: underline; text-underline-offset: 3px; }
+.primario,
+.secundario {
+  min-height: 44px;
+  padding: 0 var(--esp-4);
+  border-radius: var(--raio-reto);
+  font: 600 12px/1 var(--fonte-corpo);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.primario { background: var(--botao); color: var(--botao-texto); border: 0; }
+.primario:hover { background: var(--botao-hover); }
+.secundario { background: transparent; color: var(--texto); border: var(--fio) solid var(--fio-card); }
+.secundario:hover { border-color: var(--texto); }

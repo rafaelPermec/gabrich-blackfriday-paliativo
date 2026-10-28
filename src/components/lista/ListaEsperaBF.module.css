@@ -1,0 +1,30 @@
+.hero { padding: clamp(32px, 4.5vw, 56px) clamp(20px, 4vw, 48px); max-width: calc(var(--container) + 96px); margin-inline: auto; scroll-margin-top: 80px; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 40px; align-items: start; }
+.esquerda { display: flex; flex-direction: column; gap: 28px; min-width: 0; }
+.tag { align-self: flex-start; box-shadow: inset 0 0 0 1px #F4F0E8; color: #F4F0E8; font: 400 9px/1.2 var(--fonte-mono); text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 8px; white-space: nowrap; }
+.marca { display: flex; flex-direction: column; gap: 20px; width: min(323px, 100%); }
+.h1 { margin: 0; line-height: 0; }
+.titulo { display: block; width: 100%; height: auto; }
+.chips { display: flex; gap: 4px; }
+.chips span { flex: 1 1 auto; min-width: 0; overflow: hidden; text-align: center; text-transform: uppercase; font: 400 9.5px/1.3 var(--fonte-mono); letter-spacing: 0.02em; padding: 4px; white-space: nowrap; }
+.texto { margin: 0; font: 400 16px/1.6 var(--fonte-corpo); color: #cfc8bc; max-width: 440px; }
+
+.secao { padding: clamp(40px, 5vw, 64px) clamp(20px, 4vw, 48px); max-width: calc(var(--container) + 96px); margin-inline: auto; }
+.h2 { margin: 0 0 22px; font: 400 14px/1.3 var(--fonte-tenor); letter-spacing: 0.22em; text-transform: uppercase; color: #F4F0E8; }
+.fileira { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 4px; }
+@media (max-width: 640px) { .fileira { margin-inline: -20px; padding-inline: 20px; scroll-padding-inline: 20px; } }
+.item { flex: 0 0 auto; width: 220px; display: flex; flex-direction: column; gap: 12px; scroll-snap-align: start; }
+.card { width: 100%; aspect-ratio: 2 / 3; border-radius: var(--raio-card); overflow: hidden; position: relative; display: block; }
+.card:focus-visible { outline: 2px solid #CCAA66; outline-offset: 3px; }
+.foto { object-fit: cover; }
+.veu { position: absolute; inset: 0; }
+.etiqueta { position: absolute; top: 14px; left: 14px; background: #CCAA66; color: #0b0b0b; font: 400 9px/1.2 var(--fonte-mono); letter-spacing: 0.12em; text-transform: uppercase; padding: 5px 8px; }
+.rodapeCard { position: absolute; left: 18px; right: 18px; bottom: 18px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; }
+.rotulo { font: 400 10px/1.4 var(--fonte-mono); letter-spacing: 0.2em; text-transform: uppercase; }
+.desc { margin: 0; font: 400 13px/1.55 var(--fonte-corpo); color: #cfc8bc; }
+
+.faq { padding: 48px clamp(20px, 4vw, 48px); max-width: calc(var(--container) + 96px); margin-inline: auto; }
+.faqLista { display: flex; flex-direction: column; }
+.faqItem { border-top: 1px solid #2a2724; padding: 16px 0; display: flex; flex-direction: column; gap: 8px; }
+.pergunta { margin: 0; font: 600 15px/1.4 var(--fonte-corpo); color: #F4F0E8; }
+.resposta { margin: 0; font: 400 14px/1.5 var(--fonte-corpo); color: #cfc8bc; }

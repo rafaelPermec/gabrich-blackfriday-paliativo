@@ -1,0 +1,16 @@
+// Dados da página (portados da lógica do arquivo "NE Pagina - Manual v2").
+export const MODS: [string, string, string][] = [['MÓDULO 03', 'planejamento criativo', 'm03'], ['MÓDULO 04', 'composição de cena', 'm04'], ['MÓDULO 05', 'produção de cenário', 'm05'], ['MÓDULO 06', 'iluminação com flash', 'm06'], ['MÓDULO 07', 'iluminação com luz contínua', 'm07'], ['MÓDULO 08', 'técnica e fotometria', 'm08']];
+export const DIAS = [
+  { t: 'DIA 01', itens: ['café da manhã e recepção', 'briefing, paleta de cores, referências', 'pré-produção e produção', 'pausa para o almoço', 'composição de cena', 'direção criativa e planejamento', 'técnicas de iluminação', 'início de projetos dos alunos'] },
+  { t: 'DIA 02', itens: ['café da manhã e recepção', 'análise criativa de planejamento', 'pré-produção na prática', 'pausa para o almoço', 'imersão prática', 'análise de resultados e fluxo de edição'] },
+];
+export const FAQ_NE: [string, string][] = [
+  ['Onde o workshop vai acontecer?', 'Nossa imersão será em Belo Horizonte/MG, no bairro Buritis. Por questões de segurança e privacidade, o endereço completo do estúdio será enviado exclusivamente para o e-mail dos alunos confirmados.'],
+  ['Eu não sou de BH, como me organizar?', 'Belo Horizonte é uma cidade linda e super tranquila e eu tenho certeza que esse workshop é uma ótima oportunidade pra você conhecer. Quem está na lista de espera fica sabendo da próxima turma com antecedência, então dá tempo de planejar a viagem com calma. Pra te ajudar com isso, eu fiz um guia de dicas úteis.'],
+  ['A alimentação está incluída?', 'O valor da inscrição inclui apenas o Coffee Break Premium (manhã e tarde). O almoço é de responsabilidade individual de cada um. Faremos uma pausa de aproximadamente 45min para isso. O estúdio está localizado numa região com excelentes opções gastronômicas no bairro Buritis e estarei à disposição para indicar os meus lugares favoritos e facilitar a sua escolha.'],
+  ['Quais equipamentos devo levar?', 'Se você puder, leve seu notebook e/ou iPad, mas se não conseguir, tá tudo certo! Todos os equipamentos fotográficos serão disponibilizados pelo estúdio, mas se você quiser você também pode levar sua câmera e lentes.'],
+  ['Eu ainda não tenho câmera, posso participar?', 'Com certeza! Você terá a oportunidade de aprender e experimentar equipamentos profissionais. Mas é importante você saber que este não é um curso básico de fotografia, não teremos módulos que vão te ensinar a mexer na sua câmera ou conceitos primários de exposição. No entanto, o conteúdo do workshop vai te ensinar como trabalhar profissionalmente com a fotografia de gastronomia e produtos.'],
+  ['Como funciona o acesso aos bônus?', 'O seu acesso ao Luz na Prática será enviado em até 03 dias após o workshop, você terá o acesso disponível por 30 dias. Caso você já seja aluno do curso, você vai receber 30 dias bônus de acesso. O voucher da FundoLab te garante um desconto de R$ 150 em compras acima de R$ 300 no site e será disponibilizado após o workshop com validade de 30 dias. Os materiais extras serão entregues durante o workshop.'],
+  ['O workshop possui certificado?', 'Sim. Ao final do workshop você receberá um certificado de participação!'],
+];
+
